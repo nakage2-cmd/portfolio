@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>動画編集クリエイター | ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background-color: #0e0e0e;
+      color: #ffffff;
+    }
+    header {
+      background: linear-gradient(120deg, #111, #1e1e1e);
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      border-left: 5px solid #00ffd1;
+      padding-left: 15px;
+    }
+    .about p, .skills ul {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills li {
+      background: #222;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+    .works-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .work {
+      background: #1a1a1a;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .work:hover {
+      transform: scale(1.03);
+    }
+    .work iframe {
+      width: 100%;
+      height: 200px;
+    }
+    .work-info {
+      padding: 15px;
+    }
+    .work-info h3 {
+      margin: 0 0 10px;
+      color: #00ffd1;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    @media (max-width: 768px) {
+      .works-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>動画編集クリエイター</h1>
+    <p>Motion / Edit / Color</p>
+  </header>
+
+  <section class="about">
+    <h2 class="section-title">自己紹介</h2>
+    <p>
+      映像を通して「伝わる感動」を届ける動画編集クリエイター。カット編集からモーショングラフィックスまで幅広く対応。YouTubeやSNS向けの動画制作を中心に活動中。
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2 class="section-title">スキル</h2>
+    <ul>
+      <li>Premiere Pro</li>
+      <li>After Effects</li>
+      <li>モーショングラフィックス</li>
+      <li>カラーグレーディング</li>
+      <li>テロップデザイン</li>
+    </ul>
+  </section>
+
+  <section class="works">
+    <h2 class="section-title">過去作品</h2>
+    <div class="works-grid">
+      <div class="work">
+        <iframe src="https://www.youtube.com/embed/788XdEshusU" frameborder="0" allowfullscreen></iframe>
+        <div class="work-info">
+          <h3>作品1</h3>
+          <p>エンタメ系YouTube動画。カットテンポとBGMに注力。</p>
+        </div>
+      </div>
+      <div class="work">
+        <iframe src="https://www.youtube.com/embed/SL1yPJONdkA" frameborder="0" allowfullscreen></iframe>
+        <div class="work-info">
+          <h3>作品2</h3>
+          <p>情報発信系動画。モーショングラフィックを多用。</p>
+        </div>
+      </div>
+      <div class="work">
+        <iframe src="https://www.youtube.com/embed/bb7zRuXTqjQ" frameborder="0" allowfullscreen></iframe>
+        <div class="work-info">
+          <h3>作品3</h3>
+          <p>Vlog系動画。カラーグレーディングにこだわり。</p>
+        </div>
+      </div>
+      <div class="work">
+        <iframe src="https://www.youtube.com/embed/aWxfoZTdGUs" frameborder="0" allowfullscreen></iframe>
+        <div class="work-info">
+          <h3>作品4</h3>
+          <p>ショート動画。動きとテンポ重視の編集スタイル。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">お問い合わせ</h2>
+    <p>
+      お仕事のご依頼やご相談は以下よりご連絡ください。<br>
+      📩 your.email@example.com<br><br>
+      またはSNSにて：<br>
+      <a href="#" style="color:#00ffd1;">Instagram</a> / <a href="#" style="color:#00ffd1;">X (旧Twitter)</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 動画編集クリエイター Portfolio. All rights reserved.
+  </footer>
+
+</body>
+</html>
